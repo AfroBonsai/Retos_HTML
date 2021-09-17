@@ -1,0 +1,57 @@
+#container {
+    font-family: Lucida Sans Unicode;
+    width: 900px;
+    text-align: center;
+    border-style: solid;
+    border-color:lightgray;
+    /* border-width: 15px;
+    border-top-width: 10px; */
+    margin: 0 0 0 0;
+    }
+
+.nombre1 {
+    color:rgb(66, 143, 70);
+}
+.nombre2 {
+    color:rgb(201, 198, 20);
+}
+#cuadros_inferiores {
+    background-color: violet;
+    display: flex;
+
+}
+
+.cuadro_contenido {
+    background-color: yellow;
+    text-align:justify;
+    border-style: solid;
+    border-color: lightgray;
+    float: left;
+
+}
+
+.botones {
+    align-content: center;
+    align-items: center;
+    margin:auto;
+}
+.botones li{
+    list-style: none;
+    background-color: #4CAF50;
+    text-align: center;
+    width: 90%;
+    line-height: 40px;
+    margin-bottom: 10px;
+    }
+.botones li a{
+    text-decoration: none;
+    display: block;
+    }
+
+h2 {
+    color: rgb(119, 199, 72);
+    border-bottom: 30px;    
+}
+h3 {
+    color: rgb(224, 179, 28);
+}
